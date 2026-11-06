@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "bot_message_filter",
+  "version": "1.0.0",
+  "name": "假人信息屏蔽",
+  "description": "自动识别连续编号的名字组，并在本地隐藏其加入、退出和死亡提示。",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.botfilter.BotMessageFilter"] },
+  "depends": { "fabricloader": ">=0.19.5", "fabric-api": "*", "minecraft": "26.3", "java": ">=25" }
+}
